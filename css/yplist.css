@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clear{
+clear:both;
+height:0;
+line_height:0;
+font-siez:0;
+margin:0;
+padding:0;
+zoom:1;
+}
+.clear:after {
+content: ".";
+display: block;
+visibility: hidden;
+height: 0;
+clear: both;
+}
+
+ form,td, th, table, div, ul, li, ol, dl, dt, dd, img, a, input, select, h1, h2, h3, h4, h5, h6{font-weight:normal; margin:0; padding:0;list-style-type: none;  border:none;}
+body{ font-size:14px;font-family:"宋体"; line-height:23px; font-weight:normal;}
+em, i{ font-style:normal;}
+p{ font-size:12px;margin:0; padding:0;list-style-type: none;  border:none;color:#878789;}
+a{  font-family:"宋体";
+	text-decoration: none;
+	 color:#3a3a3a;
+}
+.f12{ font-size:12px;}
+div {display: block;}
+.box{ width:1000px; height:auto; margin:0 auto; padding:0 auto;}
+/*总导航*/
+.nav{ height:40px; line-height:40px; width:990px; text-align:left; background:#00b9d2; padding-left:10px;}
+.nav dl dt{ float:left; display:inline; padding:0px 0px 0px 10px;}
+.nav dl dt a{font-size:16px; font-family:"宋体"; color:#fff;}
+.nav dl dd{ float:left;display:inline; padding-left:8px; padding-right:10px;}
+.nav dl dd a{font-size:16px; font-family:"宋体"; font-size:14px;color:#fff;}
+
+/*搜索功能*/
+.search{ float:right; width:207px; height:40px; line-height:40px; padding-right:5px;}
+.search input{ float:left;}
+#txt{ width:150px; display:inline-block; margin-top:10px; height:20px;}
+#bt{ width:50px; line-height:40px;display:inline-block; margin-top:10px; height:20px; margin-left:5px; line-height:20px; border:1px solid #009;}
+
+/*面包屑*/
+
+.position{ width:1000px; height:40px; line-height:40px; }
+.position a{font-size:12px;}
+.position em a{ font-style:normal; color:#00C;}
+
+.ypclass{ width:998px; height:100px; border-top:2px solid #5495ab; border-left: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;}
+.leibie{ width:1000px; height:30px; line-height:26px; font-size:12px; padding-top:10px;}
+.leibie dl{border-bottom: 1px dashed #E0E0E0; width:990px; height:27px; padding-left:10px; line-height:27px;}
+.leibie dl dt{ float:left; font-weight:bold;}
+.test{ width:846px; height:27px; float:left; }
+.leibie li{  float:left; width:105px; height:27px; padding-left:5px; padding-right:5px; }
+.leibie .bx{ width:30px;color: #24A6D0;}
+.leibie li a{font-family:"宋体";}
+.more{  width:50px; height:27px; float:right; }
+
+.yplist{ width:1000px; height:auto; margin-top:10px; border:#e0e0e0 1px solid;}
+.tj{ width:990px; height:40px; line-height:40px; padding-left:10px; font-size:12px; background:#f5f5f5; border-bottom:1px solid #e0e0e0;}
+.tj dl{ width:990px;}
+.tj dt{ float:left;}
+.tj .fright{ float:right;  height:40px; width:100px;}
+.fright span{ color:#5495ab;}
+.show_list{ width:998px; height:auto; margin-top:10px;}
+
+
+
+.show_list dl{  border-top:none; border-bottom:1px solid #e0e0e0; height:180px; } 
+.show_list dl dt { float:left; display: inline; width:130px; padding:15px; }
+.show_list dl dt img{width:130px; height:130px;  display:block; margin:0 auto}
+.show_list dl dd{ text-align:left; width:830px; height:auto; padding-top:10px; float:left; }
+.show_list dl dd h2 { font-size:14px; color:#333;}
+.show_list dl dd h2 a:hover{color:#cc0000;}
+.show_list dl dd h2 i{ font-style:normal; font-size:12px; font-weight:100;}
+.show_list dl dd h2 .i2{ color:#666;}
+.show_list dl dd h2 .i3 a{ color:#1d89b8;}
+.show_list .detailed{ float:left;}
+.show_list .detailed .l{ width:450px;  line-height:24px; float:left;} 
+.show_list .detailed .pg .pgl { float:left; width:90px;}
+.show_list .detailed .pg p{text-align:left;font-size:14px; }
+.show_list .detailed .first .pgl { height:48px;}
+.show_list .detailed .c { text-align:right;width:350px; float:right;  }
+.show_list .detailed .c em,.show_list .detailed .c i { font-style:normal}
+.show_list .detailed .c p{ line-height:20px; margin-bottom:8px;}
+.show_list .detailed .c p i{font-size:12px;}
+.show_list .detailed .c p span { display:inline-block; width:90px; text-align:left}
+.show_list .detailed .c p span strong {font-weight:100}
+.show_list .detailed .c p span.class0{ width:80px}
+.show_list .detailed .c p span.class1{ width:80px; padding-left:15px; border-left:1px solid #666;border-right:1px solid #666;}
+.show_list .detailed .c p span.class2{ width:100px; padding-left:15px;}
+.show_list .detailed .c em { color:#24a6d0; font-family:"Verdana"; font-size:18px;}
+
+.ypzuo{ float:left; width:688px; height:auto; border:#e0e0e0 1px solid;}
+.info{ width:688px; height:auto; padding-top:10px;}
+
+.info img{ border:1px solid #e0e0e0; padding:3px;  margin:5px 5px 0px 5px; float:left;}
+.infor{ width:360px; height:auto; float:right;}
+.infor h1{ border-bottom:#e0e0e0 dotted 1px; line-height:35px;}
+.property{ width:360px; height:35px; line-height:35px; display:inline; }
+.infor p span{ width:110px; float:left; line-height:28px; padding-top:5px;}
+.infor p em{ font-size:16px; font-family:Verdana; color:#999;}
+.pingfen{ width:360px; line-height:35px; float:left;}
+.infor .pingfen em{font-size:18px; color:#0e81b8;}
+.info_list{ width:360px; height:auto;}
+.info_list dl
+.info_list dl dd, .info_list dl dt{ float:left; margin-top:5px; line-height:25px;}
+.info_list dl dd{ padding-top:5px; padding-left:5px; }
+.c99{ color:#999;}
+.share{ width:683px; height:auto; padding-left:5px; margin-bottom:10px; }
+.share span{ background:url(../images/ypdetail_07.gif) no-repeat 240px 8px; width:70px;  text-align:left; height:47px; float:right; line-height:50px;  border-top:1px #e0e0e0  solid;  padding-left:280px; margin-right:20px; display:inline;}
+.share span a{ color:#fff;}
+
+.ypxq{ width:690px; height:auto; margin-top:10px;}
+.det_talk{ width:690px; height:40px; line-height:40px; border-bottom:2px #aace30 solid;}
+.det_talk ul li{ text-align:center; display:inline-block; margin-left:5px; margin-right:5px; float:left; padding:0px 5px 0px 5px; width:95px}
+.bac2{ }
+.lis2_a{background:url(../images/baac2.gif) no-repeat;}
+.title, .title1{ margin-bottom:30px; width:678px; height:12px; line-height:23px; padding-left:10px; padding-top:10px; }
+
+.title span{ width:75px; height:22px; line-height:79px; background:url(../images/title_bg.gif) no-repeat scroll 0px 0px;display:inline-block; color:#fff; }
+.title1 span{ width:75px; height:22px; line-height:79px; background:url(../images/title_bg.gif) no-repeat scroll 0px -22px;display:inline-block; color:#fff; }
+.ypxq dl{ width:683px; height:auto;padding: 5px 0px 0px 5px; line-height:27px; float:left;}
+.ypxq dl dt, .ypxq dl dd{ float:left;}
+.ypxq dl dt{ width:110px;}
+.ypxq dl dd{ width:570px;}
+.bac3{background:#f5fbff; }
+.xq{ width:688px; height:auto;}
+.pj{ width:688px; height:auto;}
+.pjtab{ width:600px; height:100px; border:1px solid #e0e0e0; padding:20px 10px 20px 30px; margin-left:20px;}
+.zt{ width:230px; height:100px; border-right:1px solid #e0e0e0; float:left; }
+.zt p em{ font-weight:bold;}
+
+
+/*药品右侧*/
+.delyou{ width:300px; height:auto; float:right;}
+.relate1,.bd{ width:298px; height:auto; border-top:1px solid #b3e4f3; border-left:1px solid #e2e7eb;border-right:1px solid #e2e7eb;border-bottom:1px solid #e2e7eb; margin-top:10px; padding-bottom:6px;}
+.relate1 ul li{ float:left; height:30px; line-height:30px; padding-left:5px; padding-right:5px;}
+.reltit a{ display:inline-block; margin-right:10px; color:#003466;}
+.reltit{ border-bottom:1px dashed #e2e7eb;width:275px; padding-left:20px; height:35px; line-height:35px;}
+.drug_top{ width:298px; height:auto;}
+.drug_top dl{width:250px;height:auto;float:left; border-bottom:1px dashed #e0e0e0; padding-bottom:10px; margin-left:15px;}
+.drug_top dl dt{ height:30px; line-height:30px; margin-bottom:5px;}
+.drug_top dl dt a{ display:inline-block;}
+.drug_top dl dd p{ border:none; line-height:28px; padding:0 auto;}
+.drug_top dl dd img{ margin-right:5px; float:left; border:#e4e9ec 1px solid; padding:10px 3px 10px 3px; margin-top:4px;}
+.drug_top dl .lis1{height:30px; line-height:30px;width:250px; }
+.drug_top dl .lis1_a{height:30px; line-height:30px;width:250px; }
+.drug_top dl dt .num{ background:url(../images/twocolor.gif) no-repeat scroll 0% 0% transparent;}
+.drug_top dl dt span{ width:15px; height:13px; line-height:13px;display: inline-block;color:#fff; padding-left:3px;}
+.drug_top dl dd{ padding-left:0px;}
+
+.bd dl{ float:left; margin-bottom:5px; padding-left:10px; margin-top:5px;}
+.bd dl dt,.bd dl dd{ float:left;}
+.bd dl dt{ width:70px;}
+.bd dl dt img{ margin-right:5px; float:left; border:#e4e9ec 1px solid; padding:10px 3px 10px 3px; margin-top:4px;}
+.bd dl dd{ width:200px; padding-top:5px; padding-left:5px;}
+.bd dl dd span{width:180px; height:30px; line-height:30px;display:inline-block;}
+
+
+
+/*底部*/
+.bottom{ width:1000px; height:100px; border-top:1px #e4e4e4 solid; margin-top:10px;}
+.bottom ul { text-align:center; width:700px; display:block; height:30px; padding-left:300px;}
+.bottom ul li{ float:left; line-height:30px; height:30px;}
+.bottom ul li a{ padding-left:7px; padding-right:8px; font-family:"宋体"; font-size:12px;}
+.bottom p{ width:1000px; height:60px; line-height:30px; text-align:center;}
+

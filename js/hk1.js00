@@ -1,0 +1,50 @@
+function yiGanYiYuans(id,index,count,link)
+{
+	var defaultCss;  //对于当页面没有的一定要去掉，否则会有document.getElementById不能为空的错误。
+	var SelectCss;
+	if(id==1){defaultCss="lis1";SelectCss="lis1_a";}
+	if(id==2){defaultCss="lis2";SelectCss="lis2_a";}
+	if(id==3){defaultCss="lis3";SelectCss="lis3_a";}
+	if(id==4){defaultCss="lis4";SelectCss="lis4_a";} 
+	if(id==5){defaultCss="lis5";SelectCss="lis5_a";} //id表示有几个滑动块
+	for(var n=1;n<=count;n++)
+ {
+  document.getElementById("Buttons"+id+n).className=defaultCss;
+  document.getElementById("GanbingyiyuanBox"+id+n).style.display='none';
+ }
+ document.getElementById("Buttons"+id+index).className=SelectCss;
+ document.getElementById("GanbingyiyuanBox"+id+index).style.display='';
+ }
+function yiGanYiYuand(id,index,count,link)
+{
+	var defaultCss;
+	var SelectCss;
+	if(id==6){defaultCss="lis6";SelectCss="lis6_a";}
+	if(id==7){defaultCss="lis7";SelectCss="lis7_a";}
+	if(id==8){defaultCss="lis8";SelectCss="lis8_a";}
+	if(id==9){defaultCss="lis9";SelectCss="lis9_a";}
+	if(id==10){defaultCss="lis10";SelectCss="lis10_a";}
+	if(id==11){defaultCss="lis11";SelectCss="lis11_a";}
+	if(id==12){defaultCss="lis12";SelectCss="lis12_a";}
+ for(var n=1;n<=count;n++)
+ {
+  document.getElementById("Buttond"+id+n).className=defaultCss;
+  document.getElementById("Ganbingyiyuan"+id+n).style.display='none';
+
+ }
+ document.getElementById("Buttond"+id+index).className=SelectCss;
+ document.getElementById("Ganbingyiyuan"+id+index).style.display='';
+}
+var sti=1;
+function SAutoPlay(){ //用于实现循环的部分
+sti+=1
+if(sti==5){sti=1;}
+yiGanYiYuans(9,sti,4);
+}
+setInterval('SAutoPlay();',3000);
+
+
+
+
+
+
